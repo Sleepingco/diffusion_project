@@ -1,0 +1,32 @@
+# PyTorch 및 관련 라이브러리를 위한 추가 패키지 저장소
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+# PyTorch (cu128 버전에 맞게 위 URL에서 설치됨)
+torch
+torchvision
+torchaudio
+
+# Streamlit 앱용 기본 라이브러리
+streamlit
+
+# Stable Diffusion 및 ControlNet 관련
+diffusers[torch]
+transformers
+safetensors
+accelerate
+
+# ControlNet 전처리기 도구 (OpenPose, Canny, Midas 등)
+controlnet-aux
+
+# 이미지 처리
+pillow
+scikit-image
+opencv-python
+mediapipe
+
+# 기타
+numpy
+peft
+kornia
+pytorch_lightning
+streamlit_lottie
